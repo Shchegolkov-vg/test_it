@@ -1,8 +1,9 @@
 version: '3.3'
 
 volumes:
-  postgres_data:
-  prometheus_data:
+  postgres_data: {}
+  prometheus_data: {}
+  grafana_data: {}
 
 services:
   postgres:
@@ -24,8 +25,8 @@ services:
       JBPM_DB_DRIVER: postgres
       JBPM_DB_HOST: postgres
     ports:
-      - 8080:8080
-      - 8001:8001
+      - 4000:4000
+      - 4010:4010
     depends_on:
       - postgres
     networks:
@@ -59,6 +60,8 @@ services:
       - prometheus
     volumes:
       - ./grafana/grafana.ini/:/etc/grafana/grafana.ini
+      - ./grafana/provisioning:/etc/grafana/provisioning/
+      - grafana_data:/var/lib/grafana
     networks:
       - local_net
     ports:
