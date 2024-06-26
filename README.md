@@ -23,3 +23,6 @@ Prometheus забирает метрики с host машины (node-exporter)
 3. Запустить docker-compose файл `docker-compose up`
 4. Доступ к grfafna -  http://localhost/grafana login/pasw: admin (dasboard и datasource уже добавлены)
 5. Доступ к jbpm - http://localhost/jbpm login:pasw: wbadmin
+
+![image](https://github.com/Shchegolkov-vg/test_it/assets/154276083/f96923f5-d48b-48b1-bd0b-9f46cf676715)
+
