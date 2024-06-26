@@ -1,6 +1,5 @@
 **Тестовое задание.**
 _______________________________________________________________________
-Задача (оформить в GIT-системе):
 Подготовить docker-compose проект в котором должны быть развернуты контейнеры
    1. Jbpm
    2. Nginx
@@ -18,9 +17,9 @@ Prometheus забирает метрики с host машины (node-exporter)
 
 Для запуска проекта:
 1. Установить [docer](https://docs.docker.com/engine/install/ubuntu/) и [docker-compose](https://docs.docker.com/compose/install/)
-2. Склонировать репозиторий  
-`git clone git@github.com:Shchegolkov-vg/test_it.git`
+2. Склонировать репозиторий `git clone git@github.com:Shchegolkov-vg/test_it.git`
 3. Запустить docker-compose файл `docker-compose up`
+<<<<<<< HEAD
 4. Доступ к grfafna -  http://localhost/grafana login/pasw: admin (dasboard и datasource уже добавлены)
 5. Доступ к jbpm - http://localhost/jbpm login:pasw: wbadmin
 
@@ -28,3 +27,7 @@ Prometheus забирает метрики с host машины (node-exporter)
 
 ![image](https://github.com/Shchegolkov-vg/test_it/assets/154276083/baa11ba0-8d98-4079-8ea2-707d6d8190a3)
 
+=======
+4. Доступ к grfafna -  http://ip-address/grafana/ login/pasw: admin (dasboard и datasource уже добавлены)
+5. Доступ к jbpm - http://ip-address/jbpm/ login:pasw: wbadmin
+>>>>>>> caea495 (add & fixed files)
