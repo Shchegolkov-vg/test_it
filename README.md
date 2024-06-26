@@ -26,3 +26,5 @@ Prometheus забирает метрики с host машины (node-exporter)
 
 ![image](https://github.com/Shchegolkov-vg/test_it/assets/154276083/f96923f5-d48b-48b1-bd0b-9f46cf676715)
 
+![image](https://github.com/Shchegolkov-vg/test_it/assets/154276083/baa11ba0-8d98-4079-8ea2-707d6d8190a3)
+
